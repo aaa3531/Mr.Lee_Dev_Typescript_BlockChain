@@ -1,0 +1,20 @@
+{
+  "include": ["src"],
+  "compilerOptions": {
+    "outDir": "build",
+    "target": "ES6",
+    "lib": ["ES6"],
+    "strict": true,
+    "esModuleInterop": true,
+    "module": "CommonJS"
+  }
+}
+
+
+// npm init
+// npm run build
+// npm start
+// 를통해 package를 뽑아낸 후
+// src를 통해 index.ts를 작성 후 tsconfig.json 에서 불러들이기 
+// 블록체인언어 solidity  / typescript / go / node.js 상관없이 블록체인 생성과정 동일
+// postman , ganashe를 통해 니모닉 생성하는 wallet 가능
